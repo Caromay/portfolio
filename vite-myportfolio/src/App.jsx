@@ -98,7 +98,7 @@ function App() {
             <div className="hero-image">
               <div className="profile-img-container">
                 <img 
-                  src="/public/images/picture.jpg" 
+                  src="/images/picture.jpg" 
                   alt="Ashley Marie Caromay" 
                   className="profile-img"
                 />
@@ -160,7 +160,7 @@ I focus on user-centered design principles to build products
           <div className="project-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="/public/images/iskor.jpg" alt="Iskor" />
+                <img src="/images/iskor.jpg" alt="Iskor" />
                 <div className="project-overlay">
                   <a href="https://iskor-isbb.onrender.com/#/get-started" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
@@ -184,7 +184,7 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/public/images/awesome.jpg" alt="Awesome Todos" />
+                <img src="/images/awesome.jpg" alt="Awesome Todos" />
                 <div className="project-overlay">
                   <a href="https://awesometodosapp-31v7.onrender.com" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
@@ -208,7 +208,7 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/public/images/witwaze.png" alt="Wit Waze" />
+                <img src="/images/witwaze.png" alt="Wit Waze" />
                 <div className="project-overlay">
                   <a href="https://www.figma.com/design/m2FLzwCdyrv2wuD3b7A1gS/Wireframe-Wit-Waze-?node-id=447-90&t=f2HMd0ONrNQW8FGV-0" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
