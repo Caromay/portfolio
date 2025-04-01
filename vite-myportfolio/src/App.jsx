@@ -165,7 +165,7 @@ I focus on user-centered design principles to build products
                   <a href="https://iskor-isbb.onrender.com/#/get-started" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
-                  <a href="https://iskor-isbb.onrender.com/#/get-started" className="project-link">
+                  <a href="https://github.com/Gemperle-Student/iskormain" className="project-link">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -189,7 +189,7 @@ I focus on user-centered design principles to build products
                   <a href="https://awesometodosapp-31v7.onrender.com" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
-                  <a href="https://awesometodosapp-31v7.onrender.com" className="project-link">
+                  <a href="https://github.com/Caromay/awesometodosapp" className="project-link">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -208,21 +208,25 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/images/witwaze.png" alt="Wit Waze" />
+                <img src="/images/portfolio.jpg" alt="My Portfolio" />
                 <div className="project-overlay">
-                  <a href="https://www.figma.com/design/m2FLzwCdyrv2wuD3b7A1gS/Wireframe-Wit-Waze-?node-id=447-90&t=f2HMd0ONrNQW8FGV-0" className="project-link">
+                  <a href="https://portfolio-1-qi7f.onrender.com/" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
-                  <a href="https://www.figma.com/design/m2FLzwCdyrv2wuD3b7A1gS/Wireframe-Wit-Waze-?node-id=447-90&t=f2HMd0ONrNQW8FGV-0" className="project-link">
+                  <a href="https://github.com/Caromay/portfolio" className="project-link">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
               <div className="project-content">
                 <h3>Project 3</h3>
-                <p>Discover school, one step at a time.</p>
+                <p>Portfolio.</p>
                 <div className="project-tech">
-                  <span>Figma</span>
+                <span>MonggoDB</span>
+                  <span>Express</span>
+                  <span>React.js</span>
+                  <span>Node.js</span>
+                  <span>Vite</span>
                 </div>
               </div>
             </div>
