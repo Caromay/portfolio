@@ -99,7 +99,7 @@ function App() {
             <div className="hero-image">
               <div className="profile-img-container">
                 <img 
-                  src="/images/picture.jpg" 
+                  src="./image/picture.jpg" 
                   alt="Ashley Marie Caromay" 
                   className="profile-img"
                 />
@@ -152,7 +152,7 @@ I focus on user-centered design principles to build products
           <div className="project-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="/images/iskor.jpg" alt="Iskor" />
+                <img src="/image/iskor.jpg" alt="Iskor" />
                 <div className="project-overlay">
                   <a href="https://iskor-isbb.onrender.com/#/get-started" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
@@ -176,7 +176,7 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/images/awesome.jpg" alt="Awesome Todos" />
+                <img src="/image/awesome.jpg" alt="Awesome Todos" />
                 <div className="project-overlay">
                   <a href="https://awesometodosapp-31v7.onrender.com" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
@@ -200,19 +200,19 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src='' alt="Anisave" />
+                <img src='/image/anisave.jpg' alt="Anisave" />
                 <div className="project-overlay">
-                  <a href="https://portfolio-1-qi7f.onrender.com/" className="project-link">
+                  <a href="https://anisave.vercel.app/" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
-                  <a href="https://github.com/Caromay/portfolio" className="project-link">
+                  <a href="https://github.com/Sasi/portfolio" className="project-link">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
               <div className="project-content">
                 <h3>Project 3</h3>
-                <p>Anisave</p>
+                <p>Know Your Prices Like Never Before</p>
                 <div className="project-tech">
                 <span>Supabase</span>
                   <span>Express</span>
