@@ -46,7 +46,7 @@ function App() {
         <div className="nav-content">
           <div className="nav-left">
             <a href="#home" className="nav-brand">
-              <span className="highlight">Ashley</span>
+              <span className="highlight">My Portfolio</span>
             </a>
           </div>
           <div className="nav-center">
@@ -205,7 +205,7 @@ I focus on user-centered design principles to build products
                   <a href="https://anisave.vercel.app/" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
                   </a>
-                  <a href="https://github.com/Sasi/portfolio" className="project-link">
+                  <a href="https://github.com/Janriisasi/anisavev2" className="project-link">
                     <i className="fab fa-github"></i>
                   </a>
                 </div>
@@ -225,6 +225,7 @@ I focus on user-centered design principles to build products
       </section>
 
      
+     <section id="contact" className={`contact ${isVisible.contact ? 'animate-in' : ''}`}>
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
@@ -280,6 +281,7 @@ I focus on user-centered design principles to build products
           </div>
         </div>
       </footer>
+      </section>
     </>
   )
 }
