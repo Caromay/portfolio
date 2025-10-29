@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './index.css'
+import React from 'react'
 
 function App() {
   const [isVisible, setIsVisible] = useState({});
@@ -31,12 +32,12 @@ function App() {
   };
 
   const skills = [
-    { name: 'HTML', level: 80, color: '#E34F26', icon: 'fa-html5' },
-    { name: 'CSS', level: 80, color: '#1572B6', icon: 'fa-css3-alt' },
-    { name: 'JavaScript', level: 50, color: '#F7DF1E', icon: 'fa-js' },
-    { name: 'React', level: 50, color: '#61DAFB', icon: 'fa-react' },
-    { name: 'Vite', level: 50, color: '#646CFF', icon: 'fa-code' },
-    { name: 'Java', level: 70, color: '#007396', icon: 'fa-java' }
+    { name: 'HTML',  icon: 'fa-html5' },
+    { name: 'CSS', icon: 'fa-css3-alt' },
+    { name: 'JavaScript', icon: 'fa-js' },
+    { name: 'React',  icon: 'fa-react' },
+    { name: 'Vite', icon: 'fa-code' },
+    { name: 'Java',  icon: 'fa-java' }
   ];
 
   return (
@@ -121,7 +122,7 @@ I focus on user-centered design principles to build products
  that are both functional and aesthetically compelling.
               </p>
             </div>
-            <h3 className="skills-title">Skills</h3>
+            <h3 className="skills-title">Technology Stack</h3>
             <div className="skills-grid">
               {skills.map((skill, index) => (
                 <div 
@@ -135,18 +136,9 @@ I focus on user-centered design principles to build products
                     <i className={`fab ${skill.icon}`}></i>
                     <div className="skill-info">
                       <span className="skill-name">{skill.name}</span>
-                      <span className="skill-percentage">{skill.level}%</span>
                     </div>
                   </div>
-                  <div className="skill-bar">
-                    <div 
-                      className="skill-progress" 
-                      style={{ 
-                        width: isVisible.about ? `${skill.level}%` : '0%',
-                        background: `linear-gradient(90deg, ${skill.color}, ${skill.color}cc)`
-                      }}
-                    ></div>
-                  </div>
+                  
                 </div>
               ))}
             </div>
@@ -208,7 +200,7 @@ I focus on user-centered design principles to build products
 
             <div className="project-card">
               <div className="project-image">
-                <img src="/images/portfolio.jpg" alt="My Portfolio" />
+                <img src='' alt="Anisave" />
                 <div className="project-overlay">
                   <a href="https://portfolio-1-qi7f.onrender.com/" className="project-link">
                     <i className="fas fa-external-link-alt"></i>
@@ -220,13 +212,11 @@ I focus on user-centered design principles to build products
               </div>
               <div className="project-content">
                 <h3>Project 3</h3>
-                <p>Portfolio.</p>
+                <p>Anisave</p>
                 <div className="project-tech">
-                <span>MonggoDB</span>
+                <span>Supabase</span>
                   <span>Express</span>
                   <span>React.js</span>
-                  <span>Node.js</span>
-                  <span>Vite</span>
                 </div>
               </div>
             </div>
@@ -234,37 +224,7 @@ I focus on user-centered design principles to build products
         </div>
       </section>
 
-      <section id="contact" className={`contact ${isVisible.contact ? 'animate-in' : ''}`}>
-        <div className="container">
-          <h2 className="section-title">Get In Touch</h2>
-          <div className="contact-content">
-            <form className="contact-form" onSubmit={handleSubmit}>
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="form-input"
-                required
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="form-input"
-                required
-              />
-              <textarea
-                placeholder="Your Message"
-                className="form-input"
-                rows="6"
-                required
-              ></textarea>
-              <button type="submit" className="submit-btn">
-                Send Message<span>→</span>
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
-
+     
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
